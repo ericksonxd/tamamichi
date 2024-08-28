@@ -1,0 +1,163 @@
+.container{
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 12px;
+    display: block;
+    width: 400px;
+    height: 500px;
+    box-shadow: 3px 3px 60px rgb(232, 214, 13);
+}
+
+.stats{
+display: flex;
+margin: auto;
+justify-content:space-evenly;
+
+}
+
+.menu{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.button{
+border-radius: 100%;
+height: 60px;
+width: 60px;
+font-size: x-large;
+border-color: aliceblue;
+
+}
+
+ #plusfood{
+    background-color: rgb(249, 67, 67);
+    transition: 0.5s;
+    color: rgb(104, 0, 0);
+    
+}
+
+#plusfood:hover{
+color:rgb(249, 67, 67); 
+background-color: rgb(104, 0, 0);
+box-shadow: 2px 2px 50px;
+cursor: pointer; }
+
+
+#plusfood:active{
+color: black;
+background-color: whitesmoke;
+}
+
+#play{
+    background-color: rgb(255, 0, 132);
+    transition: 0.5s;
+    color: rgb(174, 0, 0); 
+}
+
+#play:hover{
+    background-color:rgb(174, 0, 0);  
+    box-shadow: 2px 2px 50px;
+    color: rgb(255, 0, 132);
+    cursor: pointer;
+}
+#play:active{
+    color: black;
+    background-color: whitesmoke;
+    }
+
+ #sueno{
+    background-color: rgb(17, 0, 255);
+    box-shadow: 2px 2px 50px;
+    color: rgb(243, 241, 241); 
+    transition: 0.5s;
+}
+
+#sueno:hover{
+    background-color: rgb(243, 241, 241); 
+    color:   rgb(17, 0, 255);
+    box-shadow: 2px 2px 50px;
+    cursor: pointer;
+}
+
+#sueno:active{
+    color: black;
+    background-color: whitesmoke;
+    }
+
+.controler{
+
+    height: 30px;
+    width: 90px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.controler:hover{
+color: black;
+background-color: white;
+cursor: pointer;
+}
+
+img{
+    border-radius: 12px;
+height: 160px;
+max-width: 100%;
+background-image: url(./expresiones/diax.jpeg);
+background-size: cover;
+background-position: center;
+animation-duration: 24s;
+animation-delay: 0.4s;
+animation-iteration-count: infinite;
+animation-name: changeday;
+
+}
+
+@keyframes changeday{
+
+from{background-image: url(./expresiones/diax.jpeg); }
+
+50%{background-image:url(./expresiones/dia.jpg); ;}
+
+to {background-image:  url(./expresiones/noche.jpg);}
+}
+
+
+.darkmode{
+background-color: #ffffff;
+
+
+}
+
+.toggle{
+    background-color:rgb(246, 255, 0);
+border-radius: 100%;
+height: 50px;
+width: 50px;    
+}
+
+.shine{
+
+    background-color: rgb(255, 255, 255);
+border-radius: 100%;
+height: 50px;
+width: 50px;
+
+}
+
+body{
+background-color: black;
+
+}
+
+.pantalla{
+  height: 160px;
+   width: 160px;
+   border-radius: 12px;
+    background-color: #ff7878;
+}
