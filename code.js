@@ -59,7 +59,7 @@ if(x<=80){
 }
 
 if(x<=40){
-    display.setAttribute("src","./expresiones/muchosueño.png")
+    display.setAttribute("src","./expresiones/mucho sueño.png")
 }
 
 
